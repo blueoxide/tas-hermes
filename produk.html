@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hermes Girly Store | Produk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">Hermes<span>Girly</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka Menu">☰</button>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="produk.html" class="active">Produk</a>
+      <a href="pemesanan.html">Pemesanan</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <p class="label">Our Collection</p>
+      <h1>Koleksi Tas Hermes</h1>
+      <p>Pilih tas favoritmu dengan tampilan modern, mewah, dan tetap girly.</p>
+    </section>
+
+    <section class="section">
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="assets/img/hermesbirkin.png" alt="Hermes Birkin" />
+          <div class="product-info">
+            <h3>Hermes Birkin</h3>
+            <p class="price">Rp50.000.000</p>
+            <button class="btn small detail-btn" data-name="Hermes Birkin" data-price="Rp50.000.000" data-desc="Tas luxury ikonik dengan desain klasik, cocok untuk look elegan dan formal.">Lihat Detail</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/img/hermeskelly.png" alt="Hermes Kelly" />
+          <div class="product-info">
+            <h3>Hermes Kelly</h3>
+            <p class="price">Rp45.000.000</p>
+            <button class="btn small detail-btn" data-name="Hermes Kelly" data-price="Rp45.000.000" data-desc="Tas elegan dengan bentuk structured yang memberi kesan anggun dan premium.">Lihat Detail</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/img/hermesconstance.png" alt="Hermes Constance" />
+          <div class="product-info">
+            <h3>Hermes Constance</h3>
+            <p class="price">Rp40.000.000</p>
+            <button class="btn small detail-btn" data-name="Hermes Constance" data-price="Rp40.000.000" data-desc="Tas compact dengan gaya modern, simple, dan cocok untuk daily luxury outfit.">Lihat Detail</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/img/hermesgardenparty.png" alt="Hermes Garden Party" />
+          <div class="product-info">
+            <h3>Hermes Garden Party</h3>
+            <p class="price">Rp35.000.000</p>
+            <button class="btn small detail-btn" data-name="Hermes Garden Party" data-price="Rp35.000.000" data-desc="Tas roomy dengan desain clean, cocok untuk aktivitas santai namun tetap stylish.">Lihat Detail</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/img/hermesevelyn.png" alt="Hermes Evelyne" />
+          <div class="product-info">
+            <h3>Hermes Evelyne</h3>
+            <p class="price">Rp30.000.000</p>
+            <button class="btn small detail-btn" data-name="Hermes Evelyne" data-price="Rp30.000.000" data-desc="Tas casual luxury dengan model praktis dan tetap terlihat chic.">Lihat Detail</button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="productModal">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose">×</button>
+      <p class="label">Product Detail</p>
+      <h2 id="modalName">Nama Produk</h2>
+      <p class="modal-price" id="modalPrice">Rp0</p>
+      <p id="modalDesc">Deskripsi produk.</p>
+      <a href="pemesanan.html" class="btn primary">Pesan Produk</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Hermes Girly Store. Website latihan HTML, CSS, dan JavaScript dasar.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
